@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         // INFO: Api Request
-        // TODO: replace it with yours: params
+        // INFO: replace it with yours: params
         Api.shared.sampleRequest(params: ["sampleKey": "sampleValue"]) { (response) in
             switch response {
             case .success(let data):

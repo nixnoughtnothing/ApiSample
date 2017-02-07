@@ -21,7 +21,7 @@ public enum Response<T> {
 }
 
 // MARK: - Inner
-// TODO: replace it with yours
+// INFO: replace it with yours
 private let host = "https://example.com"
 
 internal struct ApiClient {
